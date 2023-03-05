@@ -1,0 +1,84 @@
+[
+    {
+        "name": "nayeon",
+        "kana": "ナヨン",
+        "detail": {
+            "birthday": "1995.09.22",
+            "bloodType": "A"
+        },
+        "path": "../public/images/profilePage/nayeon.jpg"
+        
+    },
+    {
+        "name": "Jeongyeon",
+        "kana": "ジョンヨン",
+        "detail": {
+            "birthday": "1996.11.01",
+            "bloodType": "O"
+        },
+        "path": "../public/images/profilePage/Jeongyeon.jpg"
+    },
+    {
+        "name": "momo",
+        "kana": "モモ",
+        "detail": {
+            "birthday": "1996.11.09",
+            "bloodType": "A"
+        },
+        "path": "../public/images/profilePage/momo.jpg"
+    },
+    {
+        "name": "sana",
+        "kana": "サナ",
+        "detail": {
+            "birthday": "1996.12.29",
+            "bloodType": "B"
+        },
+        "path": "../public/images/profilePage/sana.jpg"
+    },
+    {
+        "name": "Jihyo",
+        "kana": "ジヒョ",
+        "detail": {
+            "birthday": "1997.02.01",
+            "bloodType": "O"
+        },
+        "path": "../public/images/profilePage/Jihyo.jpg"
+    },
+    {
+        "name": "mina",
+        "kana": "ミナ",
+        "detail": {
+            "birthday": "1997.03.24",
+            "bloodType": "A"
+        },
+        "path": "../public/images/profilePage/mina.jpg"
+    },
+    {
+        "name": "Dahyun",
+        "kana": "ダヒョン",
+        "detail": {
+            "birthday": "1998.05.28",
+            "bloodType": "O"
+        },
+        "path": "../public/images/profilePage/Dahyun.jpg"
+    },
+    {
+        "name": "Chaeyoung",
+        "kana": "チェヨン",
+        "detail": {
+            "birthday": "1999.04.23",
+            "bloodType": "RH-B"
+        },
+        "path": "../public/images/profilePage/Chaeyoung.jpg"
+    },
+    {
+        "name": "Tzuyu",
+        "kana": "ツウィ",
+        "detail": {
+            "birthday": "1999.06.14",
+            "bloodType": "A"
+        },
+        "path": "../public/images/profilePage/Tzuyu.jpg"
+    }
+]

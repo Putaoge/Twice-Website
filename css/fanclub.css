@@ -1,0 +1,1690 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer .content, .btn-box, .staff-blog .content li .pic .cover,
+.latest-contents .content li .pic .cover, section .content, section, header .right, .second-nav .left, .title-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  background-color: #fddddd;
+  color: #2f2121;
+  text-decoration: none;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+nav .navLogo {
+  position: fixed;
+  left: 40px;
+  top: -100px;
+  z-index: 2;
+  width: 120px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 5;
+}
+nav .navLogo img {
+  width: 100%;
+  -webkit-filter: drop-shadow(2px 2px 0px rgba(233, 110, 110, 0.2));
+          filter: drop-shadow(2px 2px 0px rgba(233, 110, 110, 0.2));
+  cursor: pointer;
+}
+nav .navBtnBox {
+  position: fixed;
+  left: 40px;
+  top: -100px;
+  z-index: 2;
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+nav .navBtnBox li {
+  width: 70%;
+  margin: 10px 0;
+}
+nav .navBtnBox .btn {
+  width: 100%;
+  position: relative;
+  padding: 0.2em 10px;
+}
+nav .navList {
+  position: fixed;
+  top: -60px;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -12%, 0);
+          transform: translate3d(-50%, -12%, 0);
+  -webkit-box-shadow: 0px 4px 9px -3px rgba(231, 169, 169, 0.67);
+          box-shadow: 0px 4px 9px -3px rgba(231, 169, 169, 0.67);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #F7BCBC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav .navList li {
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 15px;
+}
+nav .navList li a {
+  color: #2f2121;
+}
+nav .navList li:hover {
+  font-weight: 900;
+  text-shadow: -0.5px -0.5px #000;
+}
+nav .navList li:hover::after {
+  opacity: 1;
+}
+nav .navList li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  bottom: -7px;
+  width: 100%;
+  height: 5px;
+  background: repeat-x 0% 0% url(../public/images/fanclubImages/parts__rope.svg);
+  background-clip: padding-box;
+  background-size: 8px 5px;
+  -webkit-animation: waiting 5s infinite linear;
+          animation: waiting 5s infinite linear;
+  overflow: hidden;
+}
+@-webkit-keyframes waiting {
+  100% {
+    background-position: 100% 0%;
+  }
+}
+@keyframes waiting {
+  100% {
+    background-position: 100% 0%;
+  }
+}
+nav .languageBox {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  right: 70px;
+  top: 60px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 100;
+  cursor: pointer;
+}
+nav .languageBox:hover .languageBtnBox {
+  color: #fddddd;
+  border: 1.5px solid #2f2121;
+  background-color: #2f2121;
+}
+nav .languageBox .languageBtnBox {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 1.5px solid transparent;
+  border-color: #000;
+}
+nav .languageBox .languageBtnBox .currentLanguage {
+  font-size: 14px;
+  font-family: futura-pt-bold, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+nav .languageBox .languageBtnBox .cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+nav .languageBox .languageList {
+  position: absolute;
+  top: 35px;
+  width: 60px;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  overflow: hidden;
+  max-height: 0px;
+}
+nav .languageBox .languageList ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  /* border: 3px solid #fff; */
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-align: right;
+  border-radius: 3px;
+  overflow: hidden;
+  /* padding: 8px 15px; */
+  /* padding: 0; */
+}
+nav .languageBox .languageList ul.listActive {
+  height: auto;
+  /* padding: 8px 15px; */
+}
+nav .languageBox .languageList ul li {
+  width: 100%;
+  font-size: 14px;
+  padding: 0px;
+  line-height: 1;
+  padding: 5px;
+  color: #fddddd;
+  background-color: #2f2121;
+  border-bottom: 1px solid #fddddd;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: futura-pt-bold, sans-serif;
+  font-weight: 700;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+}
+nav .languageBox .languageList ul li:hover {
+  color: #2f2121;
+  background-color: #F5A3A3;
+}
+nav .languageBox .languageList ul li:nth-last-child(1) {
+  border-bottom: none;
+}
+
+.btnBox {
+  width: 22vw;
+}
+
+.btn {
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.6em 10px;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  color: #fddddd;
+  background-color: hsl(0, 18%, 16%);
+  border-radius: 50px;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 0;
+}
+.btn:hover {
+  color: #2f2121;
+}
+.btn:hover::after {
+  opacity: 1;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+  border-radius: 50px;
+  -webkit-transform: translate3d(-3px, -3px, 0);
+          transform: translate3d(-3px, -3px, 0);
+  border: 1px solid #2f2121;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: linear-gradient(45deg, #FDD89E, #F288B9, #FDD89E, #F288B9, #FDD89E, #F288B9);
+  background-size: 3000%;
+  -webkit-animation: color-change 20s infinite linear;
+          animation: color-change 20s infinite linear;
+}
+
+.title-box {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  margin-bottom: 60px;
+}
+.title-box .left,
+.title-box .right {
+  width: 30%;
+  margin: 20px;
+  height: 1px;
+  background-color: #2f2121;
+  position: relative;
+}
+.title-box .left::after,
+.title-box .right::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: -11px;
+  width: 8px;
+  height: 44px;
+  display: inline-block;
+  background: url(../public/images/fanclubImages/parts__kakko.svg) no-repeat center center/contain;
+}
+.title-box .right {
+  -webkit-transform: rotate3d(0, 1, 0, 180deg);
+          transform: rotate3d(0, 1, 0, 180deg);
+}
+.title-box .title {
+  text-align: center;
+  font-family: futura-pt, sans-serif;
+  position: relative;
+}
+.title-box .title-index {
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  padding-left: 0.02em;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.title-box .title-text {
+  font-size: 21px;
+  letter-spacing: 0.1em;
+}
+.title-box .title::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: -20px;
+  left: 0;
+  background: url(../public/images/fanclubImages/top--section-tit.svg) no-repeat center center/contain;
+}
+
+.second-nav {
+  width: 100%;
+  padding: 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+  position: fixed;
+  bottom: 0%;
+  background: #FFEBC7;
+  z-index: 100;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translate3d(0, 140%, 0);
+          transform: translate3d(0, 140%, 0);
+}
+.second-nav .left {
+  width: 40%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  position: relative;
+}
+.second-nav .left .logo-cover {
+  width: 276px;
+  height: 196px;
+  background: linear-gradient(45deg, #FDD89E, #F288B9, #FDD89E, #F288B9, #FDD89E, #F288B9);
+  -webkit-mask: url(../public/images/fanclubImages/logo__cover.png) no-repeat center/cover;
+          mask: url(../public/images/fanclubImages/logo__cover.png) no-repeat center/cover;
+  background-size: 2000%;
+  -webkit-animation: color-change 30s infinite linear;
+          animation: color-change 30s infinite linear;
+}
+.second-nav .left .btnBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+.second-nav .left .btnBox li {
+  width: 42%;
+}
+.second-nav .left .btnBox li .btn {
+  color: #FFEBC7;
+}
+.second-nav .left .btnBox li:hover .btn {
+  color: #2f2121;
+}
+.second-nav .right {
+  width: 60%;
+}
+.second-nav .right .second-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1%;
+}
+.second-nav .right .second-nav-list li {
+  margin: 8px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: futura-pt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+.second-nav .right .second-nav-list li a {
+  font-size: 24px;
+  color: #2f2121;
+  font-weight: 500;
+  font-family: futura-pt, sans-serif;
+}
+.second-nav .right .second-nav-list li:hover {
+  font-weight: 900;
+  text-shadow: -0.5px -0.5px #000;
+}
+.second-nav .right .second-nav-list li:hover::after {
+  opacity: 1;
+}
+.second-nav .right .second-nav-list li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  bottom: -7px;
+  width: 100%;
+  height: 5px;
+  background: repeat-x 0% 0% url(../public/images/fanclubImages/parts__rope.svg);
+  background-clip: padding-box;
+  background-size: 8px 5px;
+  -webkit-animation: waiting 5s infinite linear;
+          animation: waiting 5s infinite linear;
+  overflow: hidden;
+}
+@keyframes waiting {
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.mobile-join {
+  display: none;
+}
+.mobile-join .logo-cover {
+  width: 40vw;
+  height: 28.6vw;
+  background: linear-gradient(45deg, #FDD89E, #F288B9, #FDD89E, #F288B9, #FDD89E, #F288B9);
+  -webkit-mask: url(../public/images/fanclubImages/logo__cover.png) no-repeat center/cover;
+          mask: url(../public/images/fanclubImages/logo__cover.png) no-repeat center/cover;
+  background-size: 2000%;
+  -webkit-animation: color-change 30s infinite linear;
+          animation: color-change 30s infinite linear;
+}
+.mobile-join .btnBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+.mobile-join .btnBox li {
+  width: 42%;
+}
+.mobile-join .btnBox li .btn {
+  color: #fddddd;
+}
+.mobile-join .btnBox li:hover .btn {
+  color: #2f2121;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+header .left {
+  width: 57%;
+  position: relative;
+}
+header .left img {
+  width: 100%;
+}
+header .left::after {
+  content: "";
+  height: 100%;
+  width: 5.8vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(../public/images/fanclubImages/top--photo-cover.svg) no-repeat left top/cover;
+}
+header .right {
+  width: 43%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  position: relative;
+}
+header .right .logo-cover {
+  width: 22vw;
+  height: 15.6vw;
+  background: linear-gradient(45deg, #FDD89E, #F288B9, #FDD89E, #F288B9, #FDD89E, #F288B9);
+  -webkit-mask: url(../public/images/fanclubImages/logo__cover.png) no-repeat center/cover;
+          mask: url(../public/images/fanclubImages/logo__cover.png) no-repeat center/cover;
+  background-size: 2000%;
+  -webkit-animation: color-change 30s infinite linear;
+          animation: color-change 30s infinite linear;
+}
+header .right .btnBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+header .right .btnBox li {
+  width: 42%;
+}
+header .menuBtn {
+  position: absolute;
+  right: 0;
+  top: 55px;
+  width: 50px;
+  height: 40px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 103;
+  cursor: pointer;
+}
+header .menuBtn .line {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #2f2121;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+header .menuBtn .top-line {
+  top: 25%;
+}
+header .menuBtn .mid-line {
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate3d(0, -50%, 0);
+          transform: translate3d(0, -50%, 0);
+}
+header .menuBtn .bottom-line {
+  bottom: 25%;
+}
+
+.scroll-pc {
+  position: absolute;
+  right: 0;
+  bottom: 15%;
+  z-index: 10;
+  -webkit-transform: rotate3d(0, 0, 1, 90deg);
+          transform: rotate3d(0, 0, 1, 90deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 11px;
+  color: #2f2121;
+}
+.scroll-pc::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  height: 0.6px;
+  background-color: #2f2121;
+  -webkit-animation: scroll-line 1.5s infinite ease-in;
+          animation: scroll-line 1.5s infinite ease-in;
+}
+@-webkit-keyframes scroll-line {
+  0% {
+    right: 10px;
+    width: 0px;
+  }
+  50% {
+    right: -90px;
+    width: 100px;
+  }
+  100% {
+    right: -90px;
+    width: 0px;
+  }
+}
+@keyframes scroll-line {
+  0% {
+    right: 10px;
+    width: 0px;
+  }
+  50% {
+    right: -90px;
+    width: 100px;
+  }
+  100% {
+    right: -90px;
+    width: 0px;
+  }
+}
+
+section {
+  position: relative;
+  padding: 7vw 0 15vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+section .wave {
+  position: absolute;
+  top: -27vw;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+section .content {
+  width: 70%;
+  z-index: 1;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.banner {
+  background-color: #F7BCBC;
+}
+.banner .content li {
+  width: 40%;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(101, 70, 70, 0.2509803922));
+          filter: drop-shadow(3px 3px 2px rgba(101, 70, 70, 0.2509803922));
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.banner .content li:hover {
+  -webkit-transform: translate3d(0, -20px, 0);
+          transform: translate3d(0, -20px, 0);
+}
+.banner .content li img {
+  width: 100%;
+}
+
+.news {
+  background: #FFEBC7;
+}
+.news .content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+.news .content li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+  cursor: pointer;
+}
+.news .content li:hover .date,
+.news .content li:hover p {
+  color: #F5A3A3;
+}
+.news .content li:hover .date::after {
+  background-color: #F5A3A3;
+}
+.news .content li:nth-child(1) .date::before {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 32px;
+  background: no-repeat top center url(../public/images/fanclubImages/ico__new--pink.svg);
+  position: absolute;
+  left: -75px;
+  top: -8px;
+}
+.news .content li .date {
+  position: relative;
+  margin-right: 50px;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.news .content li .date::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 5px);
+  -webkit-transform: translate3d(0, -50%, 0);
+          transform: translate3d(0, -50%, 0);
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background-color: #000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.news .content li p {
+  letter-spacing: 0.05em;
+  font-size: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.staff-blog,
+.latest-contents {
+  background-color: #F7BCBC;
+}
+.staff-blog .content,
+.latest-contents .content {
+  width: 80%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.staff-blog .content li,
+.latest-contents .content li {
+  width: 23%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.staff-blog .content li:hover .pic .cover,
+.latest-contents .content li:hover .pic .cover {
+  top: 0;
+}
+.staff-blog .content li .pic,
+.latest-contents .content li .pic {
+  width: 100%;
+  aspect-ratio: 9/16;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(101, 70, 70, 0.2509803922));
+          filter: drop-shadow(3px 3px 2px rgba(101, 70, 70, 0.2509803922));
+  position: relative;
+  margin-bottom: 10px;
+}
+.staff-blog .content li .pic .cover,
+.latest-contents .content li .pic .cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  opacity: 0.8;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.staff-blog .content li .pic .cover p,
+.latest-contents .content li .pic .cover p {
+  text-transform: uppercase;
+  text-align: center;
+  color: #FC8B8B;
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, 1px -1px 0 #fff, 0px 1px 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff, 1px 0 0 #fff;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: futura-pt-bold, sans-serif;
+  z-index: 10;
+}
+.staff-blog .content li .pic .cover .wave,
+.latest-contents .content li .pic .cover .wave {
+  position: absolute;
+  top: -3%;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+.staff-blog .content li .pic .cover::after,
+.latest-contents .content li .pic .cover::after {
+  content: "";
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  background-color: #FC8B8B;
+}
+.staff-blog .content li .pic img,
+.latest-contents .content li .pic img {
+  width: 100%;
+}
+.staff-blog .content li .date,
+.latest-contents .content li .date {
+  font-size: 12px;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  margin-bottom: 5px;
+}
+.staff-blog .content li .text,
+.latest-contents .content li .text {
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 400;
+  word-break: break-word;
+  margin-bottom: 6px;
+  letter-spacing: 0.05em;
+}
+.staff-blog .btn-box .left,
+.staff-blog .btn-box .right,
+.latest-contents .btn-box .left,
+.latest-contents .btn-box .right {
+  width: 32%;
+}
+.staff-blog .btn-box .btn,
+.latest-contents .btn-box .btn {
+  color: #F7BCBC;
+}
+
+.latest-contents {
+  background-color: #F5A3A3;
+}
+.latest-contents .content li {
+  position: relative;
+}
+.latest-contents .content li .pic {
+  aspect-ratio: 1/1;
+}
+.latest-contents .content li:nth-child(1)::after {
+  content: "";
+  display: block;
+  width: 15vw;
+  height: 7.5vw;
+  background-color: #fff;
+  background: no-repeat top center url(../public/images/fanclubImages/ico__new--white.svg);
+  position: absolute;
+  left: -1vw;
+  top: 50%;
+  -webkit-transform: rotate3d(0, 0, 1, -2deg);
+          transform: rotate3d(0, 0, 1, -2deg);
+}
+.latest-contents .btn-box .left,
+.latest-contents .btn-box .right {
+  width: 37%;
+}
+.latest-contents .btn-box .btn {
+  color: #F5A3A3;
+}
+
+.btn-box {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  margin: 60px auto;
+}
+.btn-box .btn {
+  color: #FFEBC7;
+}
+.btn-box .btn:hover {
+  color: #2f2121;
+}
+.btn-box .left,
+.btn-box .right {
+  width: 29%;
+  margin: 20px;
+  height: 5px;
+  background-color: #2f2121;
+  position: relative;
+  background: repeat-x left top url(../public/images/fanclubImages/parts__rope.svg);
+}
+
+footer {
+  position: relative;
+  padding: 100px 0;
+}
+footer .wave {
+  position: absolute;
+  top: -27vw;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+footer .content {
+  width: 90%;
+  margin: auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer .content .left {
+  width: 30%;
+  z-index: 1;
+}
+footer .content .left .logo-pic {
+  width: 100%;
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .content .left .logo-pic img {
+  cursor: pointer;
+  width: 40%;
+}
+footer .content .right {
+  width: 60%;
+  z-index: 1;
+}
+footer .content .right .support {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+footer .content .right .support li {
+  margin: 10px 0;
+  color: #2f2121;
+  font-size: 15px;
+  padding: 0 10px;
+}
+footer .content .right .support li ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+footer .content .right .support li ul li {
+  margin: 5px 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+footer .content .right .support li ul li:hover {
+  color: #FC8B8B;
+}
+footer .content .right .support li ul li:hover::after {
+  border-color: #FC8B8B;
+}
+footer .content .right .support li .block-link li {
+  position: relative;
+}
+footer .content .right .support li .block-link li::after {
+  content: "";
+  display: block;
+  width: 0.4em;
+  height: 0.4em;
+  position: absolute;
+  border-top: 1px solid #2f2121;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(47, 33, 33);
+  border-right: 1px solid #2f2121;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(47, 33, 33);
+  right: 0px;
+  top: 0.3em;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+footer .content .logo-cover {
+  display: block;
+  width: 40vw;
+  height: 28.6vw;
+  background: linear-gradient(45deg, #FDD89E, #F288B9, #FDD89E, #F288B9, #FDD89E, #F288B9);
+  -webkit-mask: url(../public/images/fanclubImages/logo__cover.png) no-repeat center/cover;
+          mask: url(../public/images/fanclubImages/logo__cover.png) no-repeat center/cover;
+  background-size: 2000%;
+  -webkit-animation: color-change 30s infinite linear;
+          animation: color-change 30s infinite linear;
+}
+footer .content .btnBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 50px;
+}
+footer .content .btnBox li {
+  width: 42%;
+}
+footer .content .btnBox li .btn {
+  color: #fddddd;
+}
+footer .content .btnBox li:hover .btn {
+  color: #2f2121;
+}
+footer .content .mobile-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10%;
+  margin: 80px auto;
+}
+footer .content .mobile-link li {
+  position: relative;
+  font-size: 2vw;
+  font-family: futura-pt, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: #2f2121;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+footer .content .mobile-link li:hover {
+  color: #F5A3A3;
+}
+footer .content .mobile-link li:hover::after {
+  border-color: #F5A3A3;
+}
+footer .content .mobile-link li::after {
+  content: "";
+  position: absolute;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 5px;
+  height: 5px;
+  right: -15px;
+  bottom: 50%;
+  -webkit-transform: translate3d(0, 50%, 0) rotate3d(0, 0, 1, 45deg);
+          transform: translate3d(0, 50%, 0) rotate3d(0, 0, 1, 45deg);
+  border-top: 2px solid #2f2121;
+  border-right: 2px solid #2f2121;
+}
+footer .content .support-box {
+  margin-bottom: 30px;
+  padding: 1vw 2vw;
+  width: 35%;
+  border-radius: 5px;
+  border: 1px solid #2f2121;
+}
+footer .content .support-box dt {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  font-size: 16px;
+  color: #2f2121;
+  line-height: 24px;
+  padding: 10px 5px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+footer .content .support-box dt::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  width: 5px;
+  height: 5px;
+  -webkit-transform: translate3d(0, -50%, 0) rotate3d(0, 0, 1, 45deg);
+          transform: translate3d(0, -50%, 0) rotate3d(0, 0, 1, 45deg);
+  border-right: 2px solid #2f2121;
+  border-bottom: 2px solid #2f2121;
+}
+footer .content .support-box dd {
+  margin: 0;
+  max-height: 0px;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+footer .content .support-box dd .support-list {
+  padding-top: 1vw;
+}
+footer .content .support-box dd .support-list li {
+  line-height: 1;
+  font-size: 12px;
+  color: #2f2121;
+  padding: 8px 0;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+footer .content .support-box dd .support-list li:hover {
+  color: #2f2121;
+  font-weight: 900;
+}
+footer .content .logo-cover,
+footer .content .btnBox,
+footer .content .mobile-link,
+footer .content .support-box {
+  display: none;
+}
+
+.loading {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 9900;
+  top: 0;
+  left: 0;
+  background-color: #FED0D0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.loading .logo-cover {
+  z-index: 9901;
+  margin: auto;
+  width: 20vw;
+  height: 14.3vw;
+  background: linear-gradient(45deg, #FDD89E, #F288B9, #FDD89E, #F288B9, #FDD89E, #F288B9);
+  -webkit-mask: url(../public/images/fanclubImages/logo__cover.png) no-repeat center/cover;
+          mask: url(../public/images/fanclubImages/logo__cover.png) no-repeat center/cover;
+  background-size: 2000%;
+  -webkit-animation: color-change 30s infinite linear;
+          animation: color-change 30s infinite linear;
+}
+.loading .loading-wave {
+  position: absolute;
+  width: 100%;
+  height: 140vh;
+  top: 0;
+  left: 0;
+}
+.loading .loading-wave .wave {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 1.8s;
+  transition: 1.8s;
+  top: 100%;
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+  background-color: #F5A3A3;
+}
+.loading .loading-wave .wave.wave2 {
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+  background-color: #FFEBC7;
+}
+.loading .loading-wave .wave svg {
+  position: absolute;
+  left: 0;
+  top: -55%;
+}
+.loading .wave2 {
+  background-color: #FFEBC7;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .second-nav {
+    height: 90vh;
+  }
+  .second-nav .left {
+    margin-bottom: 20px;
+  }
+  .second-nav .right .second-nav-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .scroll-pc {
+    display: none;
+  }
+  nav .languageBox {
+    top: 20px;
+  }
+  header .left {
+    width: 100%;
+  }
+  header .left::after {
+    display: none;
+  }
+  header .right {
+    display: none;
+  }
+  header .menuBtn {
+    position: fixed;
+    top: 15px;
+  }
+  .mobile-join {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .latest-contents .content li:nth-child(1)::after {
+    width: 12vw;
+    height: 6vw;
+    top: 45%;
+  }
+  footer .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  footer .content .logo-cover {
+    display: block;
+  }
+  footer .content .btnBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .content .mobile-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .content .support-box {
+    display: block;
+  }
+  footer .content .left .logo-pic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 20px;
+  }
+  footer .content .left .logo-pic p {
+    text-align: center;
+  }
+  footer .content .right {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .second-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .second-nav .left {
+    width: 30%;
+  }
+  .second-nav .left .logo-cover {
+    width: 193px;
+    height: 137px;
+  }
+  .btnBox {
+    width: 40vw;
+  }
+  .banner .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .banner .content li {
+    width: 80%;
+    margin: 10px;
+  }
+  .news .content {
+    width: 80%;
+  }
+  .news .content li {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    padding: 10px 0;
+  }
+  .news .content li:nth-child(1) .date::before {
+    left: auto;
+    right: 0;
+    width: 50px;
+  }
+  .news .content li .date {
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .news .content li .date::after {
+    display: none;
+  }
+  .news .content li p {
+    line-height: 1.4;
+    font-weight: 400;
+    word-break: break-word;
+    margin-bottom: 6px;
+    letter-spacing: 0.05em;
+  }
+  .staff-blog .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+    gap: 20px;
+  }
+  .staff-blog .content li {
+    width: 95%;
+  }
+  .latest-contents .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+    gap: 20px;
+    /* 
+        .latest-contents {
+            .content {
+                li {
+                    &::after {
+                        width: 12vw;
+                        height: 6vw;
+                        top: 45%;
+                    }
+                }
+            }
+        }
+    */
+  }
+  .latest-contents .content li {
+    width: 95%;
+  }
+  .latest-contents .content li:nth-child(1)::after {
+    width: 40vw;
+    height: 20vw;
+    left: -5vw;
+    top: 69%;
+    -webkit-transform: rotate3d(0, 0, 1, -3deg);
+            transform: rotate3d(0, 0, 1, -3deg);
+  }
+  footer .content .support-box {
+    width: 50%;
+  }
+  footer .content .mobile-link {
+    margin: 40px 0;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .second-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .second-nav .left {
+    width: 30%;
+  }
+  .second-nav .left .logo-cover {
+    width: 193px;
+    height: 137px;
+  }
+  .second-nav .right .second-nav-list li a {
+    color: #2f2121;
+    font-size: 4vw;
+    font-weight: 500;
+  }
+  .btnBox {
+    width: 40vw;
+  }
+  .banner .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .banner .content li {
+    width: 80%;
+    margin: 10px;
+  }
+  .news .content {
+    width: 90%;
+  }
+  .news .content li {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    padding: 10px 0;
+  }
+  .news .content li:nth-child(1) .date::before {
+    left: auto;
+    right: 0;
+    width: 50px;
+  }
+  .news .content li .date {
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .news .content li .date::after {
+    display: none;
+  }
+  .news .content li p {
+    line-height: 1.4;
+    font-weight: 400;
+    word-break: break-word;
+    margin-bottom: 6px;
+    letter-spacing: 0.05em;
+  }
+  .staff-blog .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    gap: 20px;
+  }
+  .staff-blog .content li {
+    width: 99%;
+  }
+  .latest-contents .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    gap: 20px;
+    /* 
+            content: "";
+            display: block;
+            width: 40vw;
+            height: 20vw;
+            background-color: #fff;
+            background: no-repeat top center url(../public/images/fanclubImages/ico__new--white.svg);
+            position: absolute;
+            left: -5vw;
+            top: 69%;
+            -webkit-transform: rotate3d(0, 0, 1, -2deg);
+            transform: rotate3d(0, 0, 1, -3deg);
+            */
+  }
+  .latest-contents .content li {
+    width: 95%;
+  }
+  .latest-contents .content li:nth-child(1)::after {
+    width: 40vw;
+    height: 20vw;
+    left: -5vw;
+    top: 65%;
+    -webkit-transform: rotate3d(0, 0, 1, -3deg);
+            transform: rotate3d(0, 0, 1, -3deg);
+  }
+  footer {
+    padding: 40px 0;
+  }
+  footer .content .btnBox {
+    margin: 20px;
+  }
+  footer .content .support-box {
+    width: 60%;
+  }
+  footer .content .support-box dt {
+    padding: 5px;
+  }
+  footer .content .mobile-link {
+    width: 80%;
+    margin: 25px 0;
+    gap: 50px;
+  }
+  footer .content .left {
+    width: 80%;
+  }
+  footer .content .left .logo-pic img {
+    width: 30%;
+  }
+  footer .content .left p {
+    text-align: center;
+    margin: 20px;
+  }
+}/*# sourceMappingURL=fanclub.css.map */

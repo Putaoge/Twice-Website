@@ -1,0 +1,83 @@
+{
+    "FANCLUBNEWS": [
+        {
+            "date": "2023.02.25",
+            "text": "TWICE 5TH WORLD TOUR ‘READY TO BE’ in JAPAN初のスタジアム公演詳細発表！"
+        },
+        {
+            "date": "2023.02.24",
+            "text": "ONCE JAPAN会員証、入会特典の発送開始のお知らせ【2023年1月1日（日）～2023年1月31日（火）の間にご入会の方】"
+        }
+    ],
+    "FANCLUBTOGETHER": [
+        {
+            "date": "2022.07.12",
+            "text": "TWICE ～NAYEON～",
+            "path":"./public/images/homeImages/nayeon.jpg"
+        },
+        {
+            "date": "2022.07.12",
+            "text": "TWICE ～JEONGYEON～",
+            "path": "./public/images/homeImages/jeongyeon.png"
+        },
+        {
+            "date": "2022.07.12",
+            "text": "TWICE ～MOMO～",
+            "path": "./public/images/homeImages/momo.jpg"
+        },
+        {
+            "date": "2022.07.12",
+            "text": "TWICE ～SANA～",
+            "path": "./public/images/homeImages/sana.jpg"
+        },
+        {
+            "date": "2022.07.12",
+            "text": "TWICE ～JIHYO～",
+            "path": "./public/images/homeImages/jihyo.jpg"
+        },
+        {
+            "date": "2022.07.12",
+            "text": "TWICE ～MINA～",
+            "path": "./public/images/homeImages/mina.jpg"
+        },
+        {
+            "date": "2022.07.12",
+            "text": "TWICE ～DAHYUN～",
+            "path": "./public/images/homeImages/dahyun.jpg"
+        },
+        {
+            "date": "2022.07.12",
+            "text": "TWICE ～CHAEYOUNG～",
+            "path": "./public/images/homeImages/chaeyoung.jpg"
+        },
+        {
+            "date": "2022.07.12",
+            "text": "TWICE ～TZUYU～",
+            "path": "./public/images/homeImages/tzuyu.jpg"
+        }
+    ],
+    "MOBILENEWS": [
+        {
+            "date": "2023.02.25",
+            "text": "TWICE 5TH WORLD TOUR ‘READY TO BE’ in JAPAN初のスタジアム公演詳細発表！"
+        },
+        {
+            "date": "2023.02.22",
+            "text": "TWICE 5TH WORLD TOUR 'READY TO BE' 日本公演発表 & 初のスタジアム公演決定！"
+        }
+    ],
+    "MOBILELATEST": [
+        {
+            "date": "2023.02.28",
+            "text": "TWICEぷちChannel-Episode4-～答え合わせ編～"
+        },
+        {
+            "date": "2023.02.21",
+            "text": "TWICEぷちChannel-Episode4-～DAHYUN～"
+        },
+        {
+            "date": "2023.02.14",
+            "text": "TWICEぷちChannel-Episode4-～TZUYU～"
+        }
+    ]
+}

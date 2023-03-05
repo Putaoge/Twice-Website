@@ -1,0 +1,51 @@
+{
+    "STAFFBLOG": [
+        {
+            "date": "2023.01.01",
+            "text": "あけましておめでとうございます！",
+            "path": "../public/images/fanclubImages/staff-blog/1.jpg"
+        },
+        {
+            "date": "2022.12.19",
+            "text": "少しお早めのMerry christmas！",
+            "path": "../public/images/fanclubImages/staff-blog/2.jpg"
+        },
+        {
+            "date": "2022.11.13",
+            "text": "購入者対象オンラインイベント 6日目！",
+            "path": "../public/images/fanclubImages/staff-blog/3.jpg"
+        },
+        {
+            "date": "2022.10.29",
+            "text": "購入者対象オンラインイベント 5日目！",
+            "path": "../public/images/fanclubImages/staff-blog/4.jpg"
+        }
+    ],
+    "LATESTCONTENTS": [
+        {
+            "date": "2023.02.28",
+            "category": "MOVIE",
+            "text": "TWICEぷちChannel-Episode4-～答え合わせ編～",
+            "path": "../public/images/fanclubImages/LATEST-CONTENTS/1.png"
+        },
+        {
+            "date": "2023.02.21",
+            "category": "MOVIE",
+            "text": "TWICEぷちChannel-Episode4-～DAHYUN～",
+            "path": "../public/images/fanclubImages/LATEST-CONTENTS/2.jpg"
+        },
+        {
+            "date": "2023.02.14",
+            "category": "MOVIE",
+            "text": "TWICEぷちChannel-Episode4-～TZUYU～",
+            "path": "../public/images/fanclubImages/LATEST-CONTENTS/3.jpg"
+        },
+        {
+            "date": "2023.02.07",
+            "category": "MOVIE",
+            "text": "TWICEぷちChannel-Episode4-～JEONGYEON～",
+            "path": "../public/images/fanclubImages/LATEST-CONTENTS/4.jpg"
+        }
+        
+    ]
+}
