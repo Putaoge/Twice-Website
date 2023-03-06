@@ -22,11 +22,11 @@ if (isMobile) {
 }
 
 
+setTimeout(()=>{
+    loading.style.transform = loading2.style.transform = "scaleX(0)"
+},1500)
 window.onload = async ()=>{
 
-    setTimeout(()=>{
-        loading.style.transform = loading2.style.transform = "scaleX(0)"
-    },1500)
 
 
 
