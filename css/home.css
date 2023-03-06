@@ -749,6 +749,10 @@ header {
   background-color: none;
   color: #fff;
 }
+header .headNav .menuBtn .line,
+header .headNav-mobile .menuBtn .line {
+  background-color: #fff;
+}
 header .headNav .languageBox .languageBtnBox,
 header .headNav-mobile .languageBox .languageBtnBox {
   border-color: transparent;
