@@ -747,7 +747,7 @@ header {
   font-family: Avenir, "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
 }
 .container .selectBtnList {
-  width: 80%;
+  width: 100%;
   margin: 30px auto;
   gap: 1%;
   -webkit-box-orient: horizontal;
@@ -757,13 +757,14 @@ header {
   font-family: Avenir, "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
 }
 .container .selectBtnList li {
-  width: 12%;
+  width: 15%;
   min-width: 110px;
   line-height: 2.2;
   border: 1px solid #000;
-  border-radius: 20px;
+  border-radius: 40px;
   margin: 20px 0;
   text-align: center;
+  font-size: 16px;
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;

@@ -744,7 +744,7 @@ header {
   margin: 195px auto 0;
 }
 .container .selectBtnList {
-  width: 80%;
+  width: 60%;
   margin: 30px auto;
   gap: 1%;
   -webkit-box-orient: horizontal;
@@ -753,12 +753,13 @@ header {
           flex-flow: row wrap;
 }
 .container .selectBtnList li {
-  width: 12%;
+  width: 15%;
   min-width: 100px;
   line-height: 2.2;
   border: 1px solid #000;
   border-radius: 20px;
   margin: 20px 0;
+  font-size: 16px;
   text-align: center;
   cursor: pointer;
   -webkit-transition: 0.3s;
