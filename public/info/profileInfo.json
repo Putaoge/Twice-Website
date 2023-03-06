@@ -16,7 +16,7 @@
             "birthday": "1996.11.01",
             "bloodType": "O"
         },
-        "path": "../public/images/profilePage/Jeongyeon.jpg"
+        "path": "../public/images/profilePage/jeongyeon.jpg"
     },
     {
         "name": "momo",
@@ -43,7 +43,7 @@
             "birthday": "1997.02.01",
             "bloodType": "O"
         },
-        "path": "../public/images/profilePage/Jihyo.jpg"
+        "path": "../public/images/profilePage/jihyo.jpg"
     },
     {
         "name": "mina",
@@ -61,7 +61,7 @@
             "birthday": "1998.05.28",
             "bloodType": "O"
         },
-        "path": "../public/images/profilePage/Dahyun.jpg"
+        "path": "../public/images/profilePage/dahyun.jpg"
     },
     {
         "name": "Chaeyoung",
@@ -70,7 +70,7 @@
             "birthday": "1999.04.23",
             "bloodType": "RH-B"
         },
-        "path": "../public/images/profilePage/Chaeyoung.jpg"
+        "path": "../public/images/profilePage/chaeyoung.jpg"
     },
     {
         "name": "Tzuyu",
@@ -79,6 +79,6 @@
             "birthday": "1999.06.14",
             "bloodType": "A"
         },
-        "path": "../public/images/profilePage/Tzuyu.jpg"
+        "path": "../public/images/profilePage/tzuyu.jpg"
     }
 ]
