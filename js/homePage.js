@@ -31,9 +31,10 @@ window.onload = async ()=>{
 
 
     // 新聞資料
-    let newsArr = (await fetch('public/info/news.json')
-    .then(response => response.json())).slice(0,5)
+    let newsArr = await fetch('public/info/news.json')
+    .then(response => response.json())
     // console.log(newsArr);
+    newsArr = newsArr.slice(0, 5)
 
     // 獲取home頁面資料
     let homePageInfo = await fetch('public/info/homePageInfo.json').then((response) => response.json())
