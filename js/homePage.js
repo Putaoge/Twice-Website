@@ -31,7 +31,7 @@ window.onload = async ()=>{
 
 
     // 新聞資料
-    let newsArr = await fetch('public/info/news.json')
+    let newsArr = await fetch('public/info/News.json')
     .then(response => response.json())
     // console.log(newsArr);
     newsArr = newsArr.slice(0, 5)
